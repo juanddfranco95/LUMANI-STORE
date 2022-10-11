@@ -1,0 +1,175 @@
+
+{
+    box-sizing: border-box
+}
+
+h1{ font-size: 3.5em;}
+h2{ font-size: 2.7em;}
+h3{ font-size: 2em;}
+p{ font-size: 1.25em;}
+ul{ list-style: none;}
+li{font-size: 1.25em;}
+body{
+    font-family: "roboto", sans-serif;
+    margin: 0;
+    background-color: rgb(255,238,220) ;
+}
+button{
+    font-size: small;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 2.5px;
+    border: 1px solid rgb(0,0,0,0.5);
+    box-shadow: 2px 2px 10px rgb(0,0,0,0.5);
+    color: rgb(255,238,220);
+    background-color: rgb(9,29,56);
+}
+
+button:hover{
+    background-color: rgb(14, 49, 94);
+}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+header{
+    background-color: rgb(9,29,56);
+
+}
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+}
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header .nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 25px;
+}
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(255,238,220);
+}
+header a:hover{
+    color: rgb(14, 49, 94);
+}
+
+#banner01{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: center;
+    padding: 200px 12 px;
+    color: rgb(9,29,56);
+    text-shadow: 0.5em;
+    
+}
+#banner02{
+
+    background-color: rgb(9,29,56);
+    
+}
+#banner02 .container{
+    
+    padding: 25px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+.banner03{
+
+    padding: 25px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#promo {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: center;
+    padding: 200px 12 px;
+    color: rgb(9,29,56);
+    text-shadow: 0.5em;
+}
+
+
+#promo .container{
+
+    padding: 25px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+
+.productos{
+
+    padding: 25px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+
+footer{
+    background-color: rgb(9,29,56);
+}
+footer .logo{
+    margin: 0;
+    padding: 25px 30px;
+}
+footer .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+footer .nav{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 0;
+    padding-right: 20px;
+}
+footer a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(255,238,220);
+}
+
+@media (min-width: 720px){
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    header .nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+}
